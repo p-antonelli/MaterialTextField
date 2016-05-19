@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name         = "MaterialTextField"
+  s.name         = "MaterialTextField-IOS7"
   s.version      = "0.2"
   s.summary      = "Material design UITextField with animated placeholder label and error message"
   s.homepage     = "https://github.com/stephsharp/MaterialTextField"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = "Stephanie Sharp"
-  s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/stephsharp/MaterialTextField.git", :tag => "v#{s.version}" }
+  s.platform     = :ios, "7.0"
+  s.source       = { :git => "https://github.com/p-antonelli/MaterialTextField.git", :tag => "v#{s.version}" }
   s.source_files = "MaterialTextField"
   s.public_header_files = [ "MaterialTextField/MaterialTextField.h", 
                             "MaterialTextField/MFTextField.h", 
